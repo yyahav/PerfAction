@@ -9,8 +9,8 @@ ENV JMETER_VERSION="5.6.3" \
     JMETER_HOME="/opt/apache/apache-jmeter-5.6.3" \
     JMETER_BIN="/opt/apache/apache-jmeter-5.6.3/bin" \
     JMETER_CMD_RUNNER_VERSION="2.3" \
-    JMETER_PLUGIN_MANAGER_VERSION="1.9" \
-    JMETER_PLUGIN_INSTALL_LIST="jpgc-udp,jpgc-graphs-basic" \
+    JMETER_PLUGIN_MANAGER_VERSION="1.10" \
+    JMETER_PLUGIN_INSTALL_LIST="bzm-parallel,websocket-sampler,websocket-samplers,jpgc-udp,jpgc-graphs-basic" \
     PATH="$PATH:/opt/apache/apache-jmeter-5.6.3/bin"
 
 # Copy scripts
